@@ -1,5 +1,7 @@
 package constructorExmpl;
 
+//There are three types of constructors:
+// Default, No-arg constructor and Parameterized.
 public class ConstructorExample {
 
   int age;

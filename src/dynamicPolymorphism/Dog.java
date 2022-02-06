@@ -1,24 +1,24 @@
 package dynamicPolymorphism;
 
-public class Dog extends Animal{
-  public void animalSound(){
-    System.out.println("Woof");
-  }
+public class Dog extends Animal {
+    public void animalSound() {
+        System.out.println("Woof");
+    }
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    Animal obj2 = new Animal();
-    obj2.animalSound();
+        Animal obj2 = new Animal();
+        obj2.animalSound();
 // This would call the Animal class method
 
-    Dog obj3 = new Dog();
-    obj3.animalSound();
+        Dog obj3 = new Dog();
+        obj3.animalSound();
 // This would call the Dog class method
 
-    Animal obj4 = new Dog();
-    obj4.animalSound();
+        Animal obj4 = new Dog();
+        obj4.animalSound();
 // This would call the Dog class method
-  }
+    }
 }
 
 /*
